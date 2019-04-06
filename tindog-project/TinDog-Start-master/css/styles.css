@@ -1,0 +1,148 @@
+body{
+  font-family: "Montserrat";
+}
+#features{
+ padding:7% 15%;
+ text-align: center;
+ background-color:#fff;
+ position:relative;
+ z-index: 1;
+}
+.title-image{
+  position:absolute;
+  right:30%;
+
+}
+p{
+  color:#8f8f8f;
+}
+/* i{
+  color: #ef8172;
+  margin: auto; */
+
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+#title{
+  background-color:#ff4c68;
+}
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family:"ubuntu";
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 15px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+.container-fluid{
+padding:3% 15% 7%;
+
+}
+/* downlaod buttons */
+.download-button{
+   margin:5% 5% 5% 0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight:bold;
+font-size: 3rem;
+line-height: 1.5;
+
+}
+.feature-box{
+  padding:5%;
+}
+.icon{
+  color:#ef8172;
+  padding-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+
+background-color: #ef8172;
+color:#fff;
+text-align:center;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 50%;
+padding:10px;}
+.carousel-item{
+  padding:7% 15%;
+}
+/* Press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width:15%;
+  padding: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+/* Footer section */
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin:20px 10px;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+  transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta-heading{
+  padding: 7% 7%;
+  font-family: 'Montserrat';
+  text-align:center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+.cta-butn1{
+  margin-top: 0px;
+  margin-bottom: 3rem;
+}
